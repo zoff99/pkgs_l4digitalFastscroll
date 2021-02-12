@@ -1,0 +1,11 @@
+install:
+   - echo "installing ..."
+   - pwd
+   - id -a
+   - ls -al
+   - mkdir -p ~/.m2/repository/com/l4digital/fastscroll/fastscroll/1.1.2
+   - cp maven-metadata.xml ~/.m2/repository/com/l4digital/fastscroll/fastscroll/
+   - cp fastscroll-1.1.2.jar ~/.m2/repository/com/l4digital/fastscroll/fastscroll/1.1.2/
+   - cp fastscroll-1.1.2.aar ~/.m2/repository/com/l4digital/fastscroll/fastscroll/1.1.2/
+   - cp fastscroll-1.1.2.pom ~/.m2/repository/com/l4digital/fastscroll/fastscroll/1.1.2/
+
